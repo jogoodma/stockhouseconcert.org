@@ -6,6 +6,16 @@ import postcss from "postcss";
 import tailwindcss from "@tailwindcss/postcss";
 
 export default function (eleventyConfig) {
+  const processor = postcss([
+    //compile tailwind
+    tailwindcss(),
+
+    //minify tailwind css
+    cssnano({
+      preset: "default",
+    }),
+  ]);
+
   //compile tailwind before eleventy processes the files
   eleventyConfig.on("eleventy.before", async () => {
     const tailwindInputPath = path.resolve("./src/assets/styles/index.css");
@@ -27,15 +37,6 @@ export default function (eleventyConfig) {
     fs.writeFileSync(tailwindOutputPath, result.css);
   });
 
-  const processor = postcss([
-    //compile tailwind
-    tailwindcss(),
-
-    //minify tailwind css
-    cssnano({
-      preset: "default",
-    }),
-  ]);
 
   return {
     dir: { input: "src", output: "dist" },
