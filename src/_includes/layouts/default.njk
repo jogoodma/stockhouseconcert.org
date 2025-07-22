@@ -1,0 +1,47 @@
+---
+title: Janis Stockhouse Tribute Concert
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/styles/index.css">
+</head>
+<body class="bg-gradient-to-br from-slate-100 to-white min-h-screen flex flex-col font-sans">
+  <nav class="sticky top-0 z-40 bg-white/90 border-b border-slate-200 shadow-sm">
+    <div class="container mx-auto px-4 flex justify-center gap-8 py-4">
+      <a href="/"
+         class="text-gray-900 font-semibold hover:text-maroon transition pb-1 border-b-2 {% if page.url == '/' %}border-maroon{% else %}border-transparent{% endif %}">
+        Home
+      </a>
+      <a href="/tributes/"
+         class="text-gray-900 font-semibold hover:text-maroon transition pb-1 border-b-2 {% if page.url == '/tributes/' %}border-maroon{% else %}border-transparent{% endif %}">
+        Other Tributes
+      </a>
+      <a href="mailto:info@stockhouseconcert.org"
+         class="text-gray-900 font-semibold hover:text-maroon transition pb-1 border-b-2 border-transparent">
+        Contact Us
+      </a>
+    </div>
+  </nav>
+  <header class="bg-white shadow-sm border-b-4 border-maroon">
+    <div class="container mx-auto px-4 text-center py-10">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-2 tracking-tight text-gray-900">
+        {{ title }}
+      </h1>
+      <p class="text-lg font-medium text-gray-600">
+        Honoring a legacy of music, mentorship, and community
+      </p>
+    </div>
+  </header>
+  <main class="flex-1 flex items-center justify-center">
+    {{ content | safe }}
+  </main>
+  <footer class="text-center text-slate-400 text-xs py-6">
+    &copy; {{ page.date.getFullYear() }} Stockhouse Tribute Concert Committee. All rights reserved.
+  </footer>
+</body>
+</html>
