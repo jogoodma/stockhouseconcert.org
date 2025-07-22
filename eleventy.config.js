@@ -10,7 +10,7 @@ export default function (eleventyConfig) {
     // Compile Tailwind.
     tailwindcss(),
 
-    //minify tailwind css
+    // Minify Tailwind CSS.
     cssnano({
       preset: "default",
     }),
