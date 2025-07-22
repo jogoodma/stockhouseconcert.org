@@ -16,7 +16,7 @@ export default function (eleventyConfig) {
     }),
   ]);
 
-  //compile tailwind before eleventy processes the files
+  // Compile Tailwind before Eleventy processes the files.
   eleventyConfig.on("eleventy.before", async () => {
     const tailwindInputPath = path.resolve("./src/assets/styles/index.css");
 
