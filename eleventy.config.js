@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/postcss";
 
 export default function (eleventyConfig) {
   const processor = postcss([
-    //compile tailwind
+    // Compile Tailwind.
     tailwindcss(),
 
     //minify tailwind css
