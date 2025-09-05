@@ -6,6 +6,7 @@ date: Last Modified
 concertDate: Nov 29, 2025
 concertTime: 6:00 PM
 concertLocation: Bloomington High School North Auditorium
+mapLocation: https://duckduckgo.com/?hps=1&q=3901+N+kinser+Pike+Bloomington%2C+IN&atb=v143-1&iaxm=maps&source=maps
 ---
 
 <div class="w-full max-w-2xl bg-white/95 rounded-2xl shadow-xl p-8 md:p-12 mt-8 mb-8 border-t-4 border-maroon">
@@ -21,7 +22,14 @@ concertLocation: Bloomington High School North Auditorium
         <div class="font-bold text-gray-900">{{ concertTime | default("TBD") }}</div>
       </div>
       <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">Location</div>
+        <div class="text-base font-semibold text-gray-700 tracking-wide flex items-center gap-1">
+          Location
+          <a href="{{ mapLocation }}" target="_blank" rel="noopener" aria-label="View location on map" class="inline-block align-middle text-maroon hover:text-maroon/80">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 inline">
+              <path fill-rule="evenodd" d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.76a1 1 0 0 0 1.416 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 2a4 4 0 0 1 4 4c0 2.763-2.74 6.36-4 7.746C8.74 12.36 6 8.763 6 6a4 4 0 0 1 4-4zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
         <div class="font-bold text-gray-900">{{ concertLocation | default("TBD") }}</div>
       </div>
     </div>
