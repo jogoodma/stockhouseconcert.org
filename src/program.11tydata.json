@@ -1,0 +1,165 @@
+{
+  "symphonic": {
+    "title": "Symphonic Band",
+    "songs": [
+      {"title": "Song 1", "composer":"Somebody"},
+      {"title": "Song 2", "composer":"Somebody"},
+      {"title": "Song 3", "composer":"Somebody"}
+    ],
+    "director": "Scott Schleuter",
+    "performers": {
+      "trombone": [
+        { "name": "Chris Minor", "gradYear": 2000 },
+        { "name": "Megan Doughman", "gradYear": 1999 },
+        { "name": "Matt Briddell", "gradYear": 2000 },
+        { "name": "Melanie Coleman ST", "gradYear": null },
+        { "name": "Solomon Dixon", "gradYear": 2022 },
+        { "name": "Lindsey Evans", "gradYear": 2021 },
+        { "name": "Amber Lee", "gradYear": 2020 },
+        { "name": "Morgan Lee", "gradYear": 2023 }
+      ],
+      "flute": [
+        { "name": "Nicole Burroughs (ST)", "gradYear": 2005 },
+        { "name": "Lauren Headley", "gradYear": 1999 },
+        { "name": "Jada Beuhler", "gradYear": 2019 },
+        { "name": "Jenny Prather", "gradYear": 1996 },
+        { "name": "Lauren Killigrew", "gradYear": 2013 }
+      ],
+      "bassoon": [
+        { "name": "Katie Mills", "gradYear": 2019 }
+      ],
+      "oboe": [
+        { "name": "Jasmin Herzig", "gradYear": 2020 },
+        { "name": "Susan Anderson (Violin)", "gradYear": 2002 }
+      ],
+      "bass": [
+        { "name": "Eric Brock", "gradYear": 2000 }
+      ],
+      "trumpet": [
+        { "name": "BJ Cord", "gradYear": 1998 },
+        { "name": "James Decaro", "gradYear": 2002 },
+        { "name": "Juliet Gilchrist White", "gradYear": 1994 },
+        { "name": "Alaina Brand", "gradYear": 2008 },
+        { "name": "Caleb Ernest", "gradYear": 2012 },
+        { "name": "Siarra Brielle Bazler", "gradYear": 2010 },
+        { "name": "Vanessa Smith", "gradYear": 1985 },
+        { "name": "Josh Goodman", "gradYear": 1995 },
+        { "name": "Paul McClain", "gradYear": 1984 },
+        { "name": "Joshua Griesemer", "gradYear": 2025 }
+      ],
+      "euphonium": [
+        { "name": "Chris Stafford", "gradYear": 1996 }
+      ],
+      "tuba": [
+        { "name": "Brian Mills", "gradYear": 2012 },
+        { "name": "Craig Prough", "gradYear": 1985 },
+        { "name": "Solomon Dixon", "gradYear": 2022 }
+      ],
+      "clarinet": [
+        { "name": "Devin Blankenship", "gradYear": 2000 },
+        { "name": "Melanie Keller (Heupel)", "gradYear": 1998 },
+        { "name": "Karen Vanhook McClain", "gradYear": 1985 },
+        { "name": "Anthony Tamborrino", "gradYear": 2021 },
+        { "name": "Lori King (bass)", "gradYear": 1985 },
+        { "name": "Eva Taylor (Bass)", "gradYear": 2002 },
+        { "name": "Jake Boling (Bass)", "gradYear": 2023 }
+      ],
+      "frenchHorn": [
+        { "name": "Meghan Wohlafka", "gradYear": 2002 },
+        { "name": "Christina Nemcick", "gradYear": 2000 },
+        { "name": "Aimee Page", "gradYear": 1983 },
+        { "name": "Madi Fisher", "gradYear": 2023 },
+        { "name": "Cameron Adams", "gradYear": 2012 }
+      ],
+      "percussion": [
+        { "name": "Kathy Hershberger", "gradYear": 1994 },
+        { "name": "Matt Halverson", "gradYear": 1999 },
+        { "name": "Sharon Chaitin", "gradYear": 1996 },
+        { "name": "Emma Alexander", "gradYear": 2017 },
+        { "name": "Jimmy Brown", "gradYear": 2000 },
+        { "name": "Erika Stoner", "gradYear": 1985 },
+        { "name": "Carl Tafoya", "gradYear": 2017 }
+      ],
+      "sax": [
+        { "name": "Keegan White (alto)", "gradYear": 2002 },
+        { "name": "Dave Martin (alto or bari)", "gradYear": 1999 },
+        { "name": "Bob Hershberger (alto)", "gradYear": 1996 },
+        { "name": "Parker Trulock (alto/tenor)", "gradYear": 1999 },
+        { "name": "Leo Messier (alto)", "gradYear": 2023 },
+        { "name": "Chris Billings (alto or bari)", "gradYear": 2017 }
+      ]
+    }
+  },
+  "jazz": {
+    "title": "Jazz Band",
+    "songs": [
+      {"title": "Song 1", "composer":"Somebody"},
+      {"title": "Song 2", "composer":"Somebody"},
+      {"title": "Song 3", "composer":"Somebody"}
+    ],
+    "director": "Natalie Boeyink",
+    "performers": {
+      "trombone": [
+        { "name": "Megan Doughman", "gradYear": 1999 },
+        { "name": "Matt Briddell", "gradYear": 2000 },
+        { "name": "Melanie Coleman (ST)", "gradYear": null },
+        { "name": "Will Smith", "gradYear": 2000 },
+        { "name": "Darin Woodley", "gradYear": 2019 },
+        { "name": "Solomon Dixon", "gradYear": 2022 }
+      ],
+      "bass": [
+        { "name": "Joel Kelsey", "gradYear": 1998 }
+      ],
+      "trumpet": [
+        { "name": "BJ Cord", "gradYear": 1998 },
+        { "name": "James Decaro", "gradYear": 2002 },
+        { "name": "Alaina Brand", "gradYear": 2008 },
+        { "name": "Sierra Stridel", "gradYear": 2010 },
+        { "name": "Josh Goodman", "gradYear": 1995 },
+        { "name": "Paul McClain", "gradYear": 1984 },
+        { "name": "Alex Akers", "gradYear": 2006 },
+        { "name": "Cameron Adams", "gradYear": 2012 },
+        { "name": "Joshua Griesemer", "gradYear": 2025 },
+        { "name": "Sam Johnson", "gradYear": 1997 }
+      ],
+      "tuba": [
+        { "name": "Craig Prough", "gradYear": 1985 }
+      ],
+      "percussion": [
+        { "name": "Kathy Hershberger", "gradYear": 1994 },
+        { "name": "Matt Halverson", "gradYear": 1999 },
+        { "name": "Sharon Chaitin", "gradYear": 1996 },
+        { "name": "Jimmy Brown", "gradYear": 2000 },
+        { "name": "Charles Edwards", "gradYear": 2019 },
+        { "name": "Carl Tafoya", "gradYear": 2017 },
+        { "name": "John Valdez", "gradYear": 2007 }
+      ],
+      "violin": [
+        { "name": "Susan Anderson", "gradYear": 2002 }
+      ],
+      "guitar": [
+        { "name": "Leo Messier", "gradYear": 2023 },
+        { "name": "Sophia Stout", "gradYear": 2020 },
+        { "name": "Sadie Johnson", "gradYear": 2015 }
+      ],
+      "piano": [
+        { "name": "Erika Stoner", "gradYear": 1985 }
+      ],
+      "sax": [
+        { "name": "Keegan White (alto)", "gradYear": 2002 },
+        { "name": "Dave Martin (alto or bari)", "gradYear": 1999 },
+        { "name": "Elvin Debruicker", "gradYear": 2023 },
+        { "name": "Bob Hershberger (alto)", "gradYear": 1996 },
+        { "name": "Parker Trulock (alto/tenor)", "gradYear": 1999 },
+        { "name": "Nate Johnson", "gradYear": 1990 },
+        { "name": "Jake Boling (Bari)", "gradYear": 2023 },
+        { "name": "Chris Billings (alto or bari)", "gradYear": 2017 },
+        { "name": "Ethan Prasad Silwal", "gradYear": 2025 },
+        { "name": "Anthony Tamborrino", "gradYear": 2021 }
+      ],
+      "singer": [
+        { "name": "Rachel Caswell", "gradYear": 1991 }
+      ]
+    }
+  }
+}
