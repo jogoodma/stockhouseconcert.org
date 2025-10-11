@@ -34,18 +34,17 @@ permalink: /program/
         </ul>
       </div>
       <div id="tab-content-{{ sectionId }}-performers" style="display: none;">
-        <div>
+        <div class="performers-grid">
           {% for instrument, players in performers %}
-            <div style="margin-bottom: 1rem;">
+            <div>
               <div style="font-weight: bold; margin-bottom: 0.25rem;">
                 {{ instrument | title }}
               </div>
               <div style="font-size: 0.98rem;">
                 {% for player in players %}
-                  <span>
+                  <div>
                     {{ player.name }}{% if player.gradYear %} <span style="color: #888;">({{ player.gradYear }})</span>{% endif %}
-                    {% if not loop.last %}, {% endif %}
-                  </span>
+                  </div>
                 {% endfor %}
               </div>
             </div>
@@ -85,7 +84,7 @@ function showTab(sectionId, tab) {
 }
 </script>
 
-<div style="max-width: 1024px; margin: 2rem auto; background: #fff; border-radius: 1rem; box-shadow: 0 2px 16px rgba(0,0,0,0.08); padding: 2.5rem 2rem;">
+<div style="max-width: 1024px; margin: 2rem auto; background: #fff; border-radius: 1rem; box-shadow: 0 2px 16px rgba(0,0,0,0.08); padding: 2.5rem 2rem; margin-left: auto; margin-right: auto;">
   <h1 style="font-size: 2.5rem; font-weight: bold; text-align: center; margin-bottom: 0.5rem;">Concert Program</h1>
   <div style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem;">
     {{concertTime}} &bull; {{ concertDate }}<br>
@@ -119,4 +118,17 @@ function showTab(sectionId, tab) {
     </ul>
   </section>
 </div>
+
+<style>
+  .performers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  @media (min-width: 600px) {
+    .performers-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>
 

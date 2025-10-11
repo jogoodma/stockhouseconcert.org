@@ -81,13 +81,13 @@
         { "name": "Erika Stoner", "gradYear": 1985 },
         { "name": "Carl Tafoya", "gradYear": 2017 }
       ],
-      "sax": [
-        { "name": "Keegan White (alto)", "gradYear": 2002 },
-        { "name": "Dave Martin (alto or bari)", "gradYear": 1999 },
-        { "name": "Bob Hershberger (alto)", "gradYear": 1996 },
-        { "name": "Parker Trulock (alto/tenor)", "gradYear": 1999 },
-        { "name": "Leo Messier (alto)", "gradYear": 2023 },
-        { "name": "Chris Billings (alto or bari)", "gradYear": 2017 }
+      "saxophone": [
+        { "name": "Keegan White", "gradYear": 2002 },
+        { "name": "Dave Martin", "gradYear": 1999 },
+        { "name": "Bob Hershberger", "gradYear": 1996 },
+        { "name": "Parker Trulock", "gradYear": 1999 },
+        { "name": "Leo Messier", "gradYear": 2023 },
+        { "name": "Chris Billings", "gradYear": 2017 }
       ]
     }
   },
@@ -146,15 +146,15 @@
       "piano": [
         { "name": "Erika Stoner", "gradYear": 1985 }
       ],
-      "sax": [
-        { "name": "Keegan White (alto)", "gradYear": 2002 },
-        { "name": "Dave Martin (alto or bari)", "gradYear": 1999 },
+      "saxophone": [
+        { "name": "Keegan White", "gradYear": 2002 },
+        { "name": "Dave Martinl", "gradYear": 1999 },
         { "name": "Elvin Debruicker", "gradYear": 2023 },
-        { "name": "Bob Hershberger (alto)", "gradYear": 1996 },
-        { "name": "Parker Trulock (alto/tenor)", "gradYear": 1999 },
+        { "name": "Bob Hershberger", "gradYear": 1996 },
+        { "name": "Parker Trulock", "gradYear": 1999 },
         { "name": "Nate Johnson", "gradYear": 1990 },
-        { "name": "Jake Boling (Bari)", "gradYear": 2023 },
-        { "name": "Chris Billings (alto or bari)", "gradYear": 2017 },
+        { "name": "Jake Boling", "gradYear": 2023 },
+        { "name": "Chris Billings", "gradYear": 2017 },
         { "name": "Ethan Prasad Silwal", "gradYear": 2025 },
         { "name": "Anthony Tamborrino", "gradYear": 2021 }
       ],
@@ -219,15 +219,15 @@
       "piano": [
         { "name": "Erika Stoner", "gradYear": 1985 }
       ],
-      "sax": [
-        { "name": "Keegan White (alto)", "gradYear": 2002 },
-        { "name": "Dave Martin (alto or bari)", "gradYear": 1999 },
+      "saxophone": [
+        { "name": "Keegan White", "gradYear": 2002 },
+        { "name": "Dave Martin", "gradYear": 1999 },
         { "name": "Elvin Debruicker", "gradYear": 2023 },
-        { "name": "Bob Hershberger (alto)", "gradYear": 1996 },
-        { "name": "Parker Trulock (alto/tenor)", "gradYear": 1999 },
+        { "name": "Bob Hershberger", "gradYear": 1996 },
+        { "name": "Parker Trulock", "gradYear": 1999 },
         { "name": "Nate Johnson", "gradYear": 1990 },
-        { "name": "Jake Boling (Bari)", "gradYear": 2023 },
-        { "name": "Chris Billings (alto or bari)", "gradYear": 2017 },
+        { "name": "Jake Boling", "gradYear": 2023 },
+        { "name": "Chris Billings", "gradYear": 2017 },
         { "name": "Ethan Prasad Silwal", "gradYear": 2025 },
         { "name": "Anthony Tamborrino", "gradYear": 2021 }
       ],
