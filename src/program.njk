@@ -15,9 +15,9 @@ permalink: /program/
     <h2 class="text-2xl font-bold text-maroon mb-4 text-center">{{ symphonic.title }}</h2>
     <ul class="space-y-4">
       {% for song in symphonic.songs %}
-        <li class="flex flex-col md:flex-row md:justify-between md:items-center border-b border-slate-200 pb-2">
-          <span class="font-semibold text-gray-900">{{ song.title }}</span>
-          <span class="text-gray-600 italic">{{ song.composer }}</span>
+        <li class="flex flex-col md:flex-row md:justify-between md:items-center md:gap-2 border-b border-slate-200 pb-2 min-w-0">
+          <span class="font-semibold text-gray-900 min-w-0 max-w-[70%] md:max-w-[70%] break-words whitespace-normal">{{ song.title }}</span>
+          <span class="text-gray-600 italic md:text-right shrink-0">{{ song.composer }}</span>
         </li>
       {% else %}
         <li class="text-gray-400 italic">Program to be announced</li>
@@ -33,18 +33,40 @@ permalink: /program/
 
   <!-- Jazz Band Section -->
   <section>
-    <h2 class="text-2xl font-bold text-maroon mb-4 text-center">{{ jazz.title }}</h2>
+    <h2 class="text-2xl font-bold text-maroon my-6 text-center">{{ jazz1.title }}</h2>
     <ul class="space-y-4">
-      {% for song in jazz.songs %}
-        <li class="flex flex-col md:flex-row md:justify-between md:items-center border-b border-slate-200 pb-2">
-          <span class="font-semibold text-gray-900">{{ song.title }}</span>
-          <span class="text-gray-600 italic">{{ song.composer }}</span>
+      {% for song in jazz1.songs %}
+        <li class="flex flex-col md:flex-row md:justify-between md:items-center md:gap-2 border-b border-slate-200 pb-2 min-w-0">
+          <span class="font-semibold text-gray-900 min-w-0 max-w-[70%] md:max-w-[70%] break-words whitespace-normal">{{ song.title }}</span>
+          <span class="text-gray-600 italic md:text-right shrink-0">{{ song.composer }}</span>
         </li>
       {% else %}
         <li class="text-gray-400 italic">Program to be announced</li>
       {% endfor %}
     </ul>
     <!-- Optionally, add performers here later -->
+    <h2 class="text-2xl font-bold text-maroon my-6 mt-4 text-center">{{ jazz2.title }}</h2>
+    <ul class="space-y-4">
+      {% for song in jazz2.songs %}
+        <li class="flex flex-col md:flex-row md:justify-between md:items-center md:gap-2 border-b border-slate-200 pb-2 min-w-0">
+          <span class="font-semibold text-gray-900 min-w-0 max-w-[70%] md:max-w-[70%] break-words whitespace-normal">{{ song.title }}</span>
+          <span class="text-gray-600 italic md:text-right shrink-0">{{ song.composer }}</span>
+        </li>
+      {% else %}
+        <li class="text-gray-400 italic">Program to be announced</li>
+      {% endfor %}
+    </ul>
+    <h2 class="text-2xl font-bold text-maroon my-6 text-center">{{ jazz3.title }}</h2>
+    <ul class="space-y-4">
+      {% for song in jazz3.songs %}
+        <li class="flex flex-col md:flex-row md:justify-between md:items-center md:gap-2 border-b border-slate-200 pb-2 min-w-0">
+          <span class="font-semibold text-gray-900 min-w-0 max-w-[70%] md:max-w-[70%] break-words whitespace-normal">{{ song.title }}</span>
+          <span class="text-gray-600 italic md:text-right shrink-0">{{ song.composer }}</span>
+        </li>
+      {% else %}
+        <li class="text-gray-400 italic">Program to be announced</li>
+      {% endfor %}
+    </ul>
   </section>
 </div>
 
