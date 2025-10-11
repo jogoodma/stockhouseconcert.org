@@ -239,7 +239,7 @@
   "jazz3": {
     "title": "Tutti Encore",
     "songs": [
-      {"title": "Stockhouse Shuffle", "composer":"Matt Morey", "arranger":"Somebody"}
+      {"title": "Stockhouse Shuffle", "composer":"Matt Morey", "arranger":null}
     ]
   }
 }
