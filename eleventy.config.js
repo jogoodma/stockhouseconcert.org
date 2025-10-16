@@ -16,6 +16,29 @@ export default function (eleventyConfig) {
     }),
   ]);
 
+  // Add custom filter to merge base performers with overrides
+  eleventyConfig.addFilter("mergePerformers", function(basePerformers, overrides) {
+    if (!overrides) {
+      return basePerformers;
+    }
+    
+    const merged = {};
+    
+    // First, add all overrides
+    for (const [instrument, players] of Object.entries(overrides)) {
+      merged[instrument] = players;
+    }
+    
+    // Then, add base performers for instruments not in overrides
+    for (const [instrument, players] of Object.entries(basePerformers)) {
+      if (!merged[instrument]) {
+        merged[instrument] = players;
+      }
+    }
+    
+    return merged;
+  });
+
   // Compile Tailwind before Eleventy processes the files.
   eleventyConfig.on("eleventy.before", async () => {
     const tailwindInputPath = path.resolve("./src/assets/styles/index.css");
