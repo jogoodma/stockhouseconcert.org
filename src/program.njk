@@ -32,26 +32,6 @@ permalink: /program/
                     <span class="song-arranger">&nbsp;&mdash; Arr. {{ song.arranger }}</span>
                   {% endif %}
                 </div>
-                {% if song.performerOverrides %}
-                  <button type="button" class="song-performers-btn" onclick="toggleSongPerformers('{{ sectionId }}-song-{{ loop.index0 }}')">View Performers</button>
-                  <div id="song-performers-{{ sectionId }}-song-{{ loop.index0 }}" class="song-performers" style="display: none;">
-                    <div class="performers-grid">
-                      {% set songPerformers = performers | mergePerformers(song.performerOverrides) %}
-                      {% for instrument, players in songPerformers %}
-                        <div>
-                          <div class="instrument-title">{{ instrument | title }}</div>
-                          <div class="performer-list">
-                            {% for player in players %}
-                              <div class="performer-name">
-                                {{ player.name }}{% if player.gradYear %} <span class="performer-year">({{ player.gradYear }})</span>{% endif %}
-                              </div>
-                            {% endfor %}
-                          </div>
-                        </div>
-                      {% endfor %}
-                    </div>
-                  </div>
-                {% endif %}
               </li>
             {% else %}
               <li class="program-empty">Program to be announced</li>
@@ -60,7 +40,8 @@ permalink: /program/
         </div>
         <div id="tab-content-{{ sectionId }}-performers" role="tabpanel" style="display: none;">
           <div class="performers-grid">
-            {% for instrument, players in performers %}
+            {% set allPerformers = performers | mergeAllPerformers(songs) %}
+            {% for instrument, players in allPerformers %}
               <div>
                 <div class="instrument-title">{{ instrument | title }}</div>
                 <div class="performer-list">
@@ -240,28 +221,6 @@ permalink: /program/
   .performer-year {
     color: #888;
   }
-  .song-performers-btn {
-    margin-top: 0.5rem;
-    padding: 0.4rem 1rem;
-    background: #bfa76a;
-    color: #fff;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: background 0.2s;
-  }
-  .song-performers-btn:hover {
-    background: #a08f5a;
-  }
-  .song-performers {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: #f9f9f9;
-    border-radius: 0.5rem;
-    border: 1px solid #e0e0e0;
-  }
 </style>
 
 <script>
@@ -280,18 +239,6 @@ function showTab(sectionId, tab) {
     programBtn.setAttribute('aria-selected', 'false');
     performersContent.style.display = '';
     programContent.style.display = 'none';
-  }
-}
-
-function toggleSongPerformers(songId) {
-  const performersDiv = document.getElementById(`song-performers-${songId}`);
-  const btn = event.target;
-  if (performersDiv.style.display === 'none') {
-    performersDiv.style.display = 'block';
-    btn.textContent = 'Hide Performers';
-  } else {
-    performersDiv.style.display = 'none';
-    btn.textContent = 'View Performers';
   }
 }
 </script>
