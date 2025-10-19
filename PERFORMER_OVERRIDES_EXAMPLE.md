@@ -59,6 +59,7 @@ Add `performerOverrides` to any song in the jazz1 or jazz2 ensembles:
 ## Example Result
 
 For the ensemble above, the Performers tab would show:
+
 - Trumpet: Griffin Loudermilk, Alex Akers, Joshua Griesemer (all from base)
 - Saxophone: Bob Hershberger, Chris Billings (all from base)
 
