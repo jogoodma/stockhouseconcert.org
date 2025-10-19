@@ -16,6 +16,61 @@ export default function (eleventyConfig) {
     }),
   ]);
 
+  // Add custom filter to merge base performers with overrides for a single song
+  eleventyConfig.addFilter("mergePerformers", function(basePerformers, overrides) {
+    if (!overrides) {
+      return basePerformers;
+    }
+    
+    const merged = {};
+    
+    // First, add all overrides
+    for (const [instrument, players] of Object.entries(overrides)) {
+      merged[instrument] = players;
+    }
+    
+    // Then, add base performers for instruments not in overrides
+    for (const [instrument, players] of Object.entries(basePerformers)) {
+      if (!merged[instrument]) {
+        merged[instrument] = players;
+      }
+    }
+    
+    return merged;
+  });
+
+  // Add custom filter to merge all performers across all songs
+  eleventyConfig.addFilter("mergeAllPerformers", function(basePerformers, songs) {
+    const allPerformers = {};
+    
+    // Start with base performers
+    for (const [instrument, players] of Object.entries(basePerformers)) {
+      allPerformers[instrument] = [...players];
+    }
+    
+    // Process each song's overrides
+    for (const song of songs) {
+      if (song.performerOverrides) {
+        for (const [instrument, players] of Object.entries(song.performerOverrides)) {
+          if (!allPerformers[instrument]) {
+            allPerformers[instrument] = [];
+          }
+          // Add players that aren't already in the list
+          for (const player of players) {
+            const exists = allPerformers[instrument].some(
+              p => p.name === player.name && p.gradYear === player.gradYear
+            );
+            if (!exists) {
+              allPerformers[instrument].push(player);
+            }
+          }
+        }
+      }
+    }
+    
+    return allPerformers;
+  });
+
   // Compile Tailwind before Eleventy processes the files.
   eleventyConfig.on("eleventy.before", async () => {
     const tailwindInputPath = path.resolve("./src/assets/styles/index.css");
