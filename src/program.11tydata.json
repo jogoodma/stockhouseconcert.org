@@ -1,0 +1,755 @@
+{
+  "symphonic": {
+    "title": "Symphonic Band",
+    "songs": [
+      {
+        "title": "Symphony No. 1 The Lord of the Rings: I. Gandalf - the Wizard",
+        "composer": "Johan de Meij",
+        "arranger": null
+      },
+      {
+        "title": "October",
+        "composer": "Eric Whitacre",
+        "arranger": null
+      },
+      {
+        "title": "Appalachian Overture",
+        "composer": "James Barnes",
+        "arranger": null
+      },
+      {
+        "title": "The Mad Major",
+        "composer": "Kenneth J. Alford",
+        "arranger": "Frederick Fennell"
+      }
+    ],
+    "director": "Scott Schleuter",
+    "performers": {
+      "flute": [
+        {
+          "name": "Nicole Burroughs (ST)",
+          "gradYear": 2005
+        },
+        {
+          "name": "Jenny Nance (Prather)",
+          "gradYear": 1996
+        },
+        {
+          "name": "Lauren Headley",
+          "gradYear": 1999
+        },
+        {
+          "name": "Jada Beuhler",
+          "gradYear": 2019
+        }
+      ],
+      "oboe": [
+        {
+          "name": "Jasmin Herzig",
+          "gradYear": 2020
+        }
+      ],
+      "clarinet": [
+        {
+          "name": "Paul Yoo",
+          "gradYear": 2019
+        },
+        {
+          "name": "Berkeley Teh",
+          "gradYear": 1996
+        },
+        {
+          "name": "Devin Blankenship",
+          "gradYear": 2000
+        },
+        {
+          "name": "Megan Berney Roberts",
+          "gradYear": 2000
+        },
+        {
+          "name": "Melanie Keller (Heupel)",
+          "gradYear": 1998
+        },
+        {
+          "name": "Karen Stafford",
+          "gradYear": null
+        },
+        {
+          "name": "Ace Lee",
+          "gradYear": 2021
+        }
+      ],
+      "bass clarinet": [
+        {
+          "name": "Eva Mahan-Taylor",
+          "gradYear": 2002
+        },
+        {
+          "name": "Jacob Boling",
+          "gradYear": 2023
+        }
+      ],
+      "bassoon": [
+        {
+          "name": "Katie Mills",
+          "gradYear": 2019
+        }
+      ],
+      "saxophone": [
+        {
+          "name": "Keegan White",
+          "gradYear": 2002
+        },
+        {
+          "name": "Jon Dunn",
+          "gradYear": 1990
+        },
+        {
+          "name": "Chris Billings",
+          "gradYear": 2017
+        },
+        {
+          "name": "Bob Hershberger",
+          "gradYear": 1996
+        },
+        {
+          "name": "Leo Messier",
+          "gradYear": 2023
+        }],
+        "tenor saxophone": [{
+          "name": "Lori King",
+          "gradYear": 1985
+        }
+      ],
+      "trumpet": [
+        {
+          "name": "BJ Cord",
+          "gradYear": 1998
+        },
+        {
+          "name": "Charles Edwards",
+          "gradYear": 2019
+        },
+        {
+          "name": "Joshua Griesemer",
+          "gradYear": 2025
+        },
+        {
+          "name": "Caleb Ernest",
+          "gradYear": 2012
+        },
+        {
+          "name": "Vanessa Smith",
+          "gradYear": 1985
+        },
+        {
+          "name": "Sierra Stridel",
+          "gradYear": 2004
+        },
+        {
+          "name": "Josh Goodman",
+          "gradYear": 1995
+        },
+        {
+          "name": "Paul McClain",
+          "gradYear": 1984
+        },
+        {
+          "name": "Siarra Brielle Bazler",
+          "gradYear": 2010
+        }
+      ],
+      "french horn": [
+        {
+          "name": "Carl Tafoya",
+          "gradYear": 2017
+        },
+        {
+          "name": "Aimee Page",
+          "gradYear": 1983
+        },
+        {
+          "name": "Meghan Wohlafka",
+          "gradYear": 2002
+        },
+        {
+          "name": "Cameron Adams",
+          "gradYear": 2012
+        }
+      ],
+      "trombone": [
+        {
+          "name": "Griffin Loudermilk",
+          "gradYear": 2020
+        },
+        {
+          "name": "Melanie Case (Coleman; ST)",
+          "gradYear": 1997
+        },
+        {
+          "name": "Chris Minor",
+          "gradYear": 2000
+        },
+        {
+          "name": "Alex Simmons",
+          "gradYear": 2002
+        },
+        {
+          "name": "Megan Doughman",
+          "gradYear": 1999
+        },
+        {
+          "name": "Matt Briddell",
+          "gradYear": 2000
+        },
+        {
+          "name": "Amber Lee",
+          "gradYear": 2020
+        },
+        {
+          "name": "Lindsey Elizabeth Evans",
+          "gradYear": 2021
+        },
+        {
+          "name": "Morgan Lee",
+          "gradYear": 2023
+        },
+        {
+          "name": "Levi Minor",
+          "gradYear": 2031
+        },
+        {
+          "name": "Chuck Flowers",
+          "gradYear": 1981
+        }
+      ],
+      "euphonium": [
+        {
+          "name": "Chris Stafford",
+          "gradYear": 1996
+        }
+      ],
+      "tuba": [
+        {
+          "name": "Solomon Dixon",
+          "gradYear": 2022
+        },
+        {
+          "name": "Brian Mills",
+          "gradYear": 2012
+        },
+        {
+          "name": "Craig Prough",
+          "gradYear": 1985
+        },
+        {
+          "name": "Joseph Felton",
+          "gradYear": 1995
+        }
+      ],
+      "percussion": [
+        {
+          "name": "Matt Halverson",
+          "gradYear": 1999
+        },
+        {
+          "name": "Emma Alexander",
+          "gradYear": 2017
+        },
+        {
+          "name": "Sharon Chaitin",
+          "gradYear": 1996
+        },
+        {
+          "name": "Erika Stoner",
+          "gradYear": 1985
+        },
+        {
+          "name": "Kathy Hershberger",
+          "gradYear": 1994
+        },
+        {
+          "name": "Ben Handel",
+          "gradYear": 1998
+        }
+      ],
+      "bass": [
+        {
+          "name": "Eric Brock",
+          "gradYear": 2000
+        }
+      ]
+    }
+  },
+  "jazz1": {
+    "title": "Hampton Ensemble Jazz Band",
+    "director": "Natalie Boeyink",
+    "performers": {
+      "saxophone": [
+        {
+          "name": "Elvin DeBruicker (alto)",
+          "gradYear": 2023
+        },
+        {
+          "name": "Bob Hershberger (alto)",
+          "gradYear": 1996
+        },
+        {
+          "name": "Nelson Batalon Jr. (tenor)",
+          "gradYear": null
+        },
+        {
+          "name": "Lori King (tenor)",
+          "gradYear": 1985
+        },
+        {
+          "name": "Jake Boling (baritone)",
+          "gradYear": 2023
+        },
+        {
+          "name": "Ethan Prasad Silwal",
+          "gradYear": 2025
+        }
+      ],
+      "trumpet": [
+        {
+          "name": "Griffin Loudermilk",
+          "gradYear": null
+        },
+        {
+          "name": "Alex Akers",
+          "gradYear": 2006
+        },
+        {
+          "name": "Joshua Griesemer",
+          "gradYear": 2025
+        },
+        {
+          "name": "Cameron Adams",
+          "gradYear": 2012
+        },
+        {
+          "name": "Caleb Ernest",
+          "gradYear": null
+        }
+      ],
+      "trombone": [
+        {
+          "name": "Melanie Coleman (ST)",
+          "gradYear": null
+        },
+        {
+          "name": "Chuck Flowers",
+          "gradYear": null
+        },
+        {
+          "name": "Carl Tafoya",
+          "gradYear": 2017
+        },
+        {
+          "name": "Megan Doughman",
+          "gradYear": 1999
+        },
+        {
+          "name": "Matt Briddell",
+          "gradYear": 2000
+        },
+        {
+          "name": "Solomon Dixon",
+          "gradYear": 2022
+        }
+      ],
+      "piano": [
+        {
+          "name": "Max Riggle",
+          "gradYear": null
+        }
+      ],
+      "guitar": [
+        {
+          "name": "Leo Messier",
+          "gradYear": 2023
+        }
+      ],
+      "bass": [
+        {
+          "name": "Joel Kelsey",
+          "gradYear": 1998
+        }
+      ],
+      "drums": [
+        {
+          "name": "Charles Edwards",
+          "gradYear": 2019
+        }
+      ]
+    },
+    "songs": [
+      {
+        "title": "Back Home Again in Indiana",
+        "composer": "Dominic Spera",
+        "arranger": null
+      },
+      {
+        "title": "Dat Dere",
+        "composer": "Bobby Timmons",
+        "arranger": null,
+        "performerOverrides": {
+          "vibes": [
+            {
+              "name": "Kathy Hershberger",
+              "gradYear": 1994
+            }
+          ],
+          "violin & flute": [
+            {
+              "name": "Susan Anderson",
+              "gradYear": 2002
+            }
+          ],
+          "drums": [
+            {
+              "name": "Jimmy Brown",
+              "gradYear": 2000
+            }
+          ]
+        }
+      },
+      {
+        "title": "Orange Colored Sky",
+        "composer": "Milton DeLugg and Willie Stein",
+        "arranger": "Roger Holmes",
+        "performerOverrides": {
+          "drums": [
+            {
+              "name": "Matt Halverson",
+              "gradYear": 1999
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "jazz2": {
+    "title": "Loyola Ensemble Jazz Band",
+    "director": "Natalie Boeyink",
+    "performers": {
+      "saxophone": [
+        {
+          "name": "Emile Lippke",
+          "gradYear": null
+        },
+        {
+          "name": "Nate Johnson",
+          "gradYear": 1990
+        },
+        {
+          "name": "Anthony Tamborrino (tenor)",
+          "gradYear": 2021
+        },
+        {
+          "name": "Elvin Debruicker (bari)",
+          "gradYear": 2023
+        }
+      ],
+      "trumpet": [
+        {
+          "name": "BJ Cord",
+          "gradYear": 1998
+        },
+        {
+          "name": "Josh Goodman",
+          "gradYear": 1995
+        },
+        {
+          "name": "Sierra Stridel",
+          "gradYear": 2010
+        },
+        {
+          "name": "Paul McClain",
+          "gradYear": 1984
+        },
+        {
+          "name": "Siarra Brielle Bazler",
+          "gradYear": 2010
+        },
+        {
+          "name": "Sam Johnson",
+          "gradYear": 1997
+        }
+      ],
+      "trombone": [
+        {
+          "name": "Chuck Flowers",
+          "gradYear": null
+        },
+        {
+          "name": "Melanie Coleman (ST)",
+          "gradYear": null
+        },
+        {
+          "name": "Megan Doughman",
+          "gradYear": 1999
+        },
+        {
+          "name": "Carl Tafoya",
+          "gradYear": 2017
+        },
+        {
+          "name": "Chris Minor",
+          "gradYear": 2000
+        },
+        {
+          "name": "Solomon Dixon",
+          "gradYear": 2022
+        }
+      ],
+      "piano": [
+        {
+          "name": "Max Riggle",
+          "gradYear": null
+        }
+      ],
+      "guitar": [
+        {
+          "name": "Sadie Johnson",
+          "gradYear": 2015
+        }
+      ],
+      "bass": [
+        {
+          "name": "Joel Kelsey",
+          "gradYear": 1998
+        }
+      ],
+      "drums": [
+        {
+          "name": "Charles Edwards",
+          "gradYear": 2019
+        }
+      ]
+    },
+    "songs": [
+      {
+        "title": "Always and Forever",
+        "composer": "Path Metheny",
+        "arranger": "Bob Curnow"
+      },
+      {
+        "title": "A Night in Tunisia",
+        "composer": "Dizzy Gillespie and Frank Paparelli",
+        "arranger": "Sammy Nestico",
+        "performerOverrides": {
+          "trumpet": [
+            {
+              "name": "BJ Cord",
+              "gradYear": 1998
+            },
+            {
+              "name": "Sam Johnson",
+              "gradYear": 1997
+            },
+            {
+              "name": "Josh Goodman",
+              "gradYear": 1995
+            },
+            {
+              "name": "Siarra Brielle Bazler",
+              "gradYear": 2010
+            },
+            {
+              "name": "Paul McClain",
+              "gradYear": 1984
+            }
+          ],
+          "trombone": [
+            {
+              "name": "Solomon Dixon",
+              "gradYear": 2022
+            },
+            {
+              "name": "Carl Tafoya",
+              "gradYear": 2017
+            },
+            {
+              "name": "Megan Doughman",
+              "gradYear": 1999
+            },
+            {
+              "name": "Chris Minor",
+              "gradYear": 2000
+            }
+          ],
+          "percussion": [
+            {
+              "name": "Matt Halverson",
+              "gradYear": 1999
+            }
+          ],
+          "voice": [
+            {
+              "name": "Rachel Caswell",
+              "gradYear": 1991
+            }
+          ],
+          "drums": [
+            {
+              "name": "John Valdez",
+              "gradYear": null
+            }
+          ],
+          "vibes": [
+            {
+              "name": "Kathy Hershberger",
+              "gradYear": 1994
+            }
+          ],
+          "violin": [
+            {
+              "name": "Susan Anderson",
+              "gradYear": 2002
+            }
+          ]
+        }
+      },
+      {
+        "title": "Three and One",
+        "composer": "Thad Jones",
+        "arranger": "Thad Jones",
+        "performerOverrides": {
+          "saxophone": [
+            {
+              "name": "Keegan White",
+              "gradYear": 2002
+            },
+            {
+              "name": "Nate Johnson",
+              "gradYear": 1990
+            },
+            {
+              "name": "Anthony Tamborrino (tenor)",
+              "gradYear": 2021
+            },
+            {
+              "name": "Elvin Debruicker (bari)",
+              "gradYear": 2023
+            }
+          ],
+          "flugelhorn": [
+            {
+              "name": "BJ Cord",
+              "gradYear": 1998
+            }
+          ],
+          "trumpet": [
+            {
+              "name": "Sam Johnson",
+              "gradYear": 1997
+            },
+            {
+              "name": "Josh Goodman",
+              "gradYear": 1995
+            },
+            {
+              "name": "Siarra Brielle Bazler",
+              "gradYear": 2010
+            },
+            {
+              "name": "Paul McClain",
+              "gradYear": 1984
+            }
+          ],
+          "trombone": [
+            {
+              "name": "Solomon Dixon",
+              "gradYear": 2022
+            },
+            {
+              "name": "Carl Tafoya",
+              "gradYear": 2017
+            },
+            {
+              "name": "Megan Doughman",
+              "gradYear": 1999
+            },
+            {
+              "name": "Chris Minor",
+              "gradYear": 2000
+            }
+          ],
+          "voice": [
+            {
+              "name": "Rachel Caswell",
+              "gradYear": 1991
+            }
+          ],
+          "drums": [
+            {
+              "name": "John Valdez",
+              "gradYear": null
+            }
+          ]
+        }
+      },
+      {
+        "title": "5M Calypso",
+        "composer": "David Baker",
+        "arranger": null,
+        "performerOverrides": {
+          "saxophone": [
+            {
+              "name": "Keegan White",
+              "gradYear": 2002
+            },
+            {
+              "name": "Nate Johnson",
+              "gradYear": 1990
+            },
+            {
+              "name": "Anthony Tamborrino (tenor)",
+              "gradYear": 2021
+            },
+            {
+              "name": "Elvin Debruicker (bari)",
+              "gradYear": 2023
+            }
+          ],
+          "tuba": [
+            {
+              "name": "Craig Prough",
+              "gradYear": 1985
+            }
+          ],
+          "drums": [
+            {
+              "name": "John Valdez",
+              "gradYear": null
+            }
+          ],
+          "vibes": [
+            {
+              "name": "Kathy Hershberger",
+              "gradYear": 1994
+            }
+          ],
+          "violin & flute": [
+            {
+              "name": "Susan Anderson",
+              "gradYear": 2002
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "jazz3": {
+    "title": "Tutti Encore",
+    "songs": [
+      {
+        "title": "Stockhouse Shuffle",
+        "composer": "Matt Morey",
+        "arranger": null
+      }
+    ]
+  }
+}
