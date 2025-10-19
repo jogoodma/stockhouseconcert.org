@@ -87,6 +87,10 @@
         {
           "name": "Jacob Boling",
           "gradYear": 2023
+        },
+        {
+          "name": "Lori King",
+          "gradYear": 1985
         }
       ],
       "bassoon": [
@@ -115,12 +119,9 @@
         {
           "name": "Leo Messier",
           "gradYear": 2023
-        }],
-        "tenor saxophone": [{
-          "name": "Lori King",
-          "gradYear": 1985
         }
       ],
+      "tenor saxophone": [],
       "trumpet": [
         {
           "name": "BJ Cord",
