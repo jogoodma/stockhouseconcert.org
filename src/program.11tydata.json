@@ -25,44 +25,14 @@
     ],
     "director": "Scott Schleuter",
     "performers": {
-      "trombone": [
-        {
-          "name": "Chris Minor",
-          "gradYear": 2000
-        },
-        {
-          "name": "Megan Doughman",
-          "gradYear": 1999
-        },
-        {
-          "name": "Matt Briddell",
-          "gradYear": 2000
-        },
-        {
-          "name": "Melanie Coleman ST",
-          "gradYear": null
-        },
-        {
-          "name": "Solomon Dixon",
-          "gradYear": 2022
-        },
-        {
-          "name": "Lindsey Evans",
-          "gradYear": 2021
-        },
-        {
-          "name": "Amber Lee",
-          "gradYear": 2020
-        },
-        {
-          "name": "Morgan Lee",
-          "gradYear": 2023
-        }
-      ],
       "flute": [
         {
           "name": "Nicole Burroughs (ST)",
           "gradYear": 2005
+        },
+        {
+          "name": "Jenny Nance (Prather)",
+          "gradYear": 1996
         },
         {
           "name": "Lauren Headley",
@@ -71,14 +41,48 @@
         {
           "name": "Jada Beuhler",
           "gradYear": 2019
+        }
+      ],
+      "oboe": [
+        {
+          "name": "Jasmin Herzig",
+          "gradYear": 2020
+        }
+      ],
+      "clarinet": [
+        {
+          "name": "Paul Yoo",
+          "gradYear": 2019
         },
         {
-          "name": "Jenny Prather",
+          "name": "Berkeley Teh",
           "gradYear": 1996
         },
         {
-          "name": "Lauren Killigrew",
-          "gradYear": 2013
+          "name": "Devin Blankenship",
+          "gradYear": 2000
+        },
+        {
+          "name": "Megan Berney Roberts",
+          "gradYear": 2000
+        },
+        {
+          "name": "Melanie Keller (Heupel)",
+          "gradYear": 1998
+        },
+        {
+          "name": "Karen Stafford",
+          "gradYear": null
+        }
+      ],
+      "bass clarinet": [
+        {
+          "name": "Eva Mahan-Taylor",
+          "gradYear": 2002
+        },
+        {
+          "name": "Jacob Boling",
+          "gradYear": 2023
         }
       ],
       "bassoon": [
@@ -87,20 +91,30 @@
           "gradYear": 2019
         }
       ],
-      "oboe": [
+      "saxophone": [
         {
-          "name": "Jasmin Herzig",
-          "gradYear": 2020
+          "name": "Keegan White",
+          "gradYear": 2002
         },
         {
-          "name": "Susan Anderson (Violin)",
-          "gradYear": 2002
-        }
-      ],
-      "bass": [
+          "name": "Jon Dunn",
+          "gradYear": 1990
+        },
         {
-          "name": "Eric Brock",
-          "gradYear": 2000
+          "name": "Chris Billings",
+          "gradYear": 2017
+        }
+        {
+          "name": "Bob Hershberger",
+          "gradYear": 1996
+        },
+        {
+          "name": "Leo Messier",
+          "gradYear": 2023
+        }],
+        "tenor saxophone": [{
+          "name": "Lori King",
+          "gradYear": 1985
         }
       ],
       "trumpet": [
@@ -109,28 +123,24 @@
           "gradYear": 1998
         },
         {
-          "name": "James Decaro",
-          "gradYear": 2002
+          "name": "Charles Edwards",
+          "gradYear": 2019
         },
         {
-          "name": "Juliet Gilchrist White",
-          "gradYear": 1994
-        },
-        {
-          "name": "Alaina Brand",
-          "gradYear": 2008
+          "name": "Joshua Griesemer",
+          "gradYear": 2025
         },
         {
           "name": "Caleb Ernest",
           "gradYear": 2012
         },
         {
-          "name": "Siarra Brielle Bazler",
-          "gradYear": 2010
-        },
-        {
           "name": "Vanessa Smith",
           "gradYear": 1985
+        },
+        {
+          "name": "Sierra Stridel",
+          "gradYear": 2004
         },
         {
           "name": "Josh Goodman",
@@ -141,8 +151,72 @@
           "gradYear": 1984
         },
         {
-          "name": "Joshua Griesemer",
-          "gradYear": 2025
+          "name": "Siarra Brielle Bazler",
+          "gradYear": 2010
+        }
+      ],
+      "french horn": [
+        {
+          "name": "Carl Tafoya",
+          "gradYear": 2017
+        },
+        {
+          "name": "Aimee Page",
+          "gradYear": 1983
+        },
+        {
+          "name": "Meghan Wohlafka",
+          "gradYear": 2002
+        },
+        {
+          "name": "Cameron Adams",
+          "gradYear": 2012
+        }
+      ],
+      "trombone": [
+        {
+          "name": "Griffin Loudermilk",
+          "gradYear": 2020
+        },
+        {
+          "name": "Melanie Case (Coleman; ST)",
+          "gradYear": 1997
+        },
+        {
+          "name": "Chris Minor",
+          "gradYear": 2000
+        },
+        {
+          "name": "Alex Simmons",
+          "gradYear": 2002
+        },
+        {
+          "name": "Megan Doughman",
+          "gradYear": 1999
+        },
+        {
+          "name": "Matt Briddell",
+          "gradYear": 2000
+        },
+        {
+          "name": "Amber Lee",
+          "gradYear": 2020
+        },
+        {
+          "name": "Lindsey Elizabeth Evans",
+          "gradYear": 2021
+        },
+        {
+          "name": "Morgan Lee",
+          "gradYear": 2023
+        },
+        {
+          "name": "Levi Minor",
+          "gradYear": 2013
+        },
+        {
+          "name": "Chuck Flowers",
+          "gradYear": 1981
         }
       ],
       "euphonium": [
@@ -153,6 +227,10 @@
       ],
       "tuba": [
         {
+          "name": "Solomon Dixon",
+          "gradYear": 2022
+        },
+        {
           "name": "Brian Mills",
           "gradYear": 2012
         },
@@ -161,116 +239,40 @@
           "gradYear": 1985
         },
         {
-          "name": "Solomon Dixon",
-          "gradYear": 2022
-        }
-      ],
-      "clarinet": [
-        {
-          "name": "Devin Blankenship",
-          "gradYear": 2000
-        },
-        {
-          "name": "Melanie Keller (Heupel)",
-          "gradYear": 1998
-        },
-        {
-          "name": "Karen Vanhook McClain",
-          "gradYear": 1985
-        },
-        {
-          "name": "Anthony Tamborrino",
-          "gradYear": 2021
-        },
-        {
-          "name": "Lori King (bass)",
-          "gradYear": 1985
-        },
-        {
-          "name": "Eva Taylor (Bass)",
-          "gradYear": 2002
-        },
-        {
-          "name": "Jake Boling (Bass)",
-          "gradYear": 2023
-        }
-      ],
-      "frenchHorn": [
-        {
-          "name": "Meghan Wohlafka",
-          "gradYear": 2002
-        },
-        {
-          "name": "Christina Nemcick",
-          "gradYear": 2000
-        },
-        {
-          "name": "Aimee Page",
-          "gradYear": 1983
-        },
-        {
-          "name": "Madi Fisher",
-          "gradYear": 2023
-        },
-        {
-          "name": "Cameron Adams",
-          "gradYear": 2012
+          "name": "Joseph Felton",
+          "gradYear": 1995
         }
       ],
       "percussion": [
         {
-          "name": "Kathy Hershberger",
-          "gradYear": 1994
-        },
-        {
           "name": "Matt Halverson",
           "gradYear": 1999
-        },
-        {
-          "name": "Sharon Chaitin",
-          "gradYear": 1996
         },
         {
           "name": "Emma Alexander",
           "gradYear": 2017
         },
         {
-          "name": "Jimmy Brown",
-          "gradYear": 2000
+          "name": "Sharon Chaitin",
+          "gradYear": 1996
         },
         {
           "name": "Erika Stoner",
           "gradYear": 1985
         },
         {
-          "name": "Carl Tafoya",
-          "gradYear": 2017
+          "name": "Kathy Hershberger",
+          "gradYear": 1994
+        },
+        {
+          "name": "Ben Handel",
+          "gradYear": 1998
         }
       ],
-      "saxophone": [
+      "bass": [
         {
-          "name": "Keegan White",
-          "gradYear": 2002
-        },
-        {
-          "name": "Dave Martin",
-          "gradYear": 1999
-        },
-        {
-          "name": "Bob Hershberger",
-          "gradYear": 1996
-        },
-        {
-          "name": "Parker Trulock",
-          "gradYear": 1999
-        },
-        {
-          "name": "Leo Messier",
-          "gradYear": 2023
-        },
-        {
-          "name": "Chris Billings",
-          "gradYear": 2017
+          "name": "Eric Brock",
+          "gradYear": 2000
         }
       ]
     }
@@ -279,6 +281,54 @@
     "title": "Hampton Ensemble Jazz Band",
     "director": "Natalie Boeyink",
     "performers": {
+      "saxophone": [
+        {
+          "name": "Elvin DeBruicker (alto)",
+          "gradYear": 2023
+        },
+        {
+          "name": "Bob Hershberger (alto)",
+          "gradYear": 1996
+        },
+        {
+          "name": "Nelson Batalon Jr. (tenor)",
+          "gradYear": null
+        },
+        {
+          "name": "Lori King (tenor)",
+          "gradYear": 1985
+        },
+        {
+          "name": "Jake Boling (baritone)",
+          "gradYear": 2023
+        },
+        {
+          "name": "Ethan Prasad Silwal",
+          "gradYear": 2025
+        }
+      ],
+      "trumpet": [
+        {
+          "name": "Griffin Loudermilk",
+          "gradYear": null
+        },
+        {
+          "name": "Alex Akers",
+          "gradYear": 2006
+        },
+        {
+          "name": "Joshua Griesemer",
+          "gradYear": 2025
+        },
+        {
+          "name": "Cameron Adams",
+          "gradYear": 2012
+        },
+        {
+          "name": "Caleb Ernest",
+          "gradYear": null
+        }
+      ],
       "trombone": [
         {
           "name": "Melanie Coleman (ST)",
@@ -305,38 +355,10 @@
           "gradYear": 2022
         }
       ],
-      "bass": [
+      "piano": [
         {
-          "name": "Joel Kelsey",
-          "gradYear": 1998
-        }
-      ],
-      "trumpet": [
-        {
-          "name": "Griffin Loudermilk",
+          "name": "Max Riggle",
           "gradYear": null
-        },
-        {
-          "name": "Alex Akers",
-          "gradYear": 2006
-        },
-        {
-          "name": "Joshua Griesemer",
-          "gradYear": 2025
-        },
-        {
-          "name": "Cameron Adams",
-          "gradYear": 2012
-        },
-        {
-          "name": "Caleb Ernest",
-          "gradYear": null
-        }
-      ],
-      "drums": [
-        {
-          "name": "Charles Edwards",
-          "gradYear": 2019
         }
       ],
       "guitar": [
@@ -345,36 +367,16 @@
           "gradYear": 2023
         }
       ],
-      "piano": [
+      "bass": [
         {
-          "name": "Max Riggle",
-          "gradYear": null
+          "name": "Joel Kelsey",
+          "gradYear": 1998
         }
       ],
-      "saxophone": [
+      "drums": [
         {
-          "name": "Elvin DeBruicker (alto)",
-          "gradYear": 2023
-        },
-        {
-          "name": "Bob Hershberger (alto)",
-          "gradYear": 1996
-        },
-        {
-          "name": "Nelson Batalon Jr. (tenor)",
-          "gradYear": null
-        },
-        {
-          "name": "Lori King (tenor)",
-          "gradYear": 1985
-        },
-        {
-          "name": "Jake Boling (baritone)",
-          "gradYear": 2023
-        },
-        {
-          "name": "Ethan Prasad Silwal",
-          "gradYear": 2025
+          "name": "Charles Edwards",
+          "gradYear": 2019
         }
       ]
     },
@@ -428,36 +430,22 @@
     "title": "Loyola Ensemble Jazz Band",
     "director": "Natalie Boeyink",
     "performers": {
-      "trombone": [
+      "saxophone": [
         {
-          "name": "Chuck Flowers",
+          "name": "Emile Lippke",
           "gradYear": null
         },
         {
-          "name": "Melanie Coleman (ST)",
-          "gradYear": null
+          "name": "Nate Johnson",
+          "gradYear": 1990
         },
         {
-          "name": "Megan Doughman",
-          "gradYear": 1999
+          "name": "Anthony Tamborrino (tenor)",
+          "gradYear": 2021
         },
         {
-          "name": "Carl Tafoya",
-          "gradYear": 2017
-        },
-        {
-          "name": "Chris Minor",
-          "gradYear": 2000
-        },
-        {
-          "name": "Solomon Dixon",
-          "gradYear": 2022
-        }
-      ],
-      "bass": [
-        {
-          "name": "Joel Kelsey",
-          "gradYear": 1998
+          "name": "Elvin Debruicker (bari)",
+          "gradYear": 2023
         }
       ],
       "trumpet": [
@@ -486,10 +474,30 @@
           "gradYear": 1997
         }
       ],
-      "guitar": [
+      "trombone": [
         {
-          "name": "Sadie Johnson",
-          "gradYear": 2015
+          "name": "Chuck Flowers",
+          "gradYear": null
+        },
+        {
+          "name": "Melanie Coleman (ST)",
+          "gradYear": null
+        },
+        {
+          "name": "Megan Doughman",
+          "gradYear": 1999
+        },
+        {
+          "name": "Carl Tafoya",
+          "gradYear": 2017
+        },
+        {
+          "name": "Chris Minor",
+          "gradYear": 2000
+        },
+        {
+          "name": "Solomon Dixon",
+          "gradYear": 2022
         }
       ],
       "piano": [
@@ -498,22 +506,16 @@
           "gradYear": null
         }
       ],
-      "saxophone": [
+      "guitar": [
         {
-          "name": "Emile Lippke",
-          "gradYear": null
-        },
+          "name": "Sadie Johnson",
+          "gradYear": 2015
+        }
+      ],
+      "bass": [
         {
-          "name": "Nate Johnson",
-          "gradYear": 1990
-        },
-        {
-          "name": "Anthony Tamborrino (tenor)",
-          "gradYear": 2021
-        },
-        {
-          "name": "Elvin Debruicker (bari)",
-          "gradYear": 2023
+          "name": "Joel Kelsey",
+          "gradYear": 1998
         }
       ],
       "drums": [
