@@ -249,10 +249,6 @@
       ],
       "percussion": [
         {
-          "name": "Matt Halvorson",
-          "gradYear": 1999
-        },
-        {
           "name": "Emma Alexander",
           "gradYear": 2017
         },
@@ -414,15 +410,7 @@
       {
         "title": "Orange Colored Sky",
         "composer": "Milton DeLugg and Willie Stein",
-        "arranger": "Roger Holmes",
-        "performerOverrides": {
-          "drums": [
-            {
-              "name": "Matt Halvorson",
-              "gradYear": 1999
-            }
-          ]
-        }
+        "arranger": "Roger Holmes"
       }
     ]
   },
@@ -578,12 +566,6 @@
             {
               "name": "Chris Minor",
               "gradYear": 2000
-            }
-          ],
-          "percussion": [
-            {
-              "name": "Matt Halvorson",
-              "gradYear": 1999
             }
           ],
           "drums": [
