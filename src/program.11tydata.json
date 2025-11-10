@@ -23,7 +23,10 @@
         "arranger": "Frederick Fennell"
       }
     ],
-    "director": "Scott Schleuter",
+    "director": {
+      "name": "Scott Schleuter",
+      "gradYear": 1991
+    },
     "performers": {
       "flute": [
         {
@@ -279,7 +282,10 @@
   },
   "jazz1": {
     "title": "Hampton Ensemble Jazz Band",
-    "director": "Natalie Boeyink",
+    "director": {
+      "name": "Natalie Boeyink",
+      "gradYear": 1997
+    },
     "performers": {
       "saxophone": [
         {
@@ -379,13 +385,13 @@
     "songs": [
       {
         "title": "Back Home Again in Indiana",
-        "composer": "Dominic Spera",
-        "arranger": null
+        "composer": "James F. Hanley and Ballard MacDonald",
+        "arranger": "Dominic Spera"
       },
       {
         "title": "Dat Dere",
-        "composer": "Bobby Timmons",
-        "arranger": null,
+        "composer": "Bobby Timmons and Oscar Brown Jr.",
+        "arranger": "Chris Gallaher",
         "performerOverrides": {
           "vibes": [
             {
@@ -410,13 +416,36 @@
       {
         "title": "Orange Colored Sky",
         "composer": "Milton DeLugg and Willie Stein",
-        "arranger": "Roger Holmes"
+        "arranger": "Roger Holmes",
+        "performerOverrides": {
+          "trumpet": [
+            {
+              "name": "Griffin Loudermilk",
+              "gradYear": 2020
+            },
+            {
+              "name": "Dan Cummins (ST)",
+              "gradYear": 2011
+            },
+            {
+              "name": "Joshua Griesemer",
+              "gradYear": 2025
+            },
+            {
+              "name": "Cameron Adams",
+              "gradYear": 2012
+            }
+          ]
+        }
       }
     ]
   },
   "jazz2": {
     "title": "Loyola Ensemble Jazz Band",
-    "director": "Natalie Boeyink",
+    "director": {
+      "name": "Natalie Boeyink",
+      "gradYear": 1997
+    },
     "performers": {
       "saxophone": [
         {
@@ -520,7 +549,7 @@
     "songs": [
       {
         "title": "Always and Forever",
-        "composer": "Path Metheny",
+        "composer": "Pat Metheny",
         "arranger": "Bob Curnow"
       },
       {
