@@ -377,6 +377,10 @@
       ],
       "drums": [
         {
+          "name": "Danny Deckard",
+          "gradYear": 1982
+        },
+        {
           "name": "Charles Edwards",
           "gradYear": 2019
         }
