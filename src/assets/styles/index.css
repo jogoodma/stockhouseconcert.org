@@ -4,3 +4,16 @@
   --color-maroon: #800000;
   --color-gold: #ffd700;
 }
+
+/* Print-specific styles */
+@media print {
+  nav,
+  header,
+  footer {
+    display: none;
+  }
+
+  main {
+    display: block;
+  }
+}
