@@ -80,6 +80,7 @@ export default function (eleventyConfig) {
   );
 
   // Compile Tailwind before Eleventy processes the files.
+  eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.on("eleventy.before", async () => {
     const tailwindInputPath = path.resolve("./src/assets/styles/index.css");
 
