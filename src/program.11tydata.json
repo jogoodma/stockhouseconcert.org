@@ -274,6 +274,10 @@
         {
           "name": "Maddy Waters",
           "gradYear": 2025
+        },
+        {
+          "name": "Danny Walsh",
+          "gradYear": null
         }
       ],
       "bass": [
@@ -363,8 +367,8 @@
       ],
       "piano": [
         {
-          "name": "Max Riggle",
-          "gradYear": null
+          "name": "Maxwell Riggle",
+          "gradYear": 2021
         }
       ],
       "guitar": [
@@ -531,8 +535,8 @@
       ],
       "piano": [
         {
-          "name": "Max Riggle",
-          "gradYear": null
+          "name": "Maxwell Riggle",
+          "gradYear": 2021
         }
       ],
       "guitar": [
