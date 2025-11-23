@@ -297,8 +297,12 @@
     "performers": {
       "saxophone": [
         {
-          "name": "Elvin DeBruicker (Alto)",
+          "name": "Ace Lee (Alto)",
           "gradYear": 2023
+        },
+        {
+          "name": "Anthony Tamborrino (Alto)",
+          "gradYear": 2021
         },
         {
           "name": "Bob Hershberger (Alto)",
@@ -337,6 +341,10 @@
         {
           "name": "Cameron Adams",
           "gradYear": 2012
+        },
+        {
+          "name": "Dan Cummins (ST)",
+          "gradYear": 2011
         }
       ],
       "trombone": [
@@ -391,6 +399,28 @@
         {
           "name": "Charles Edwards",
           "gradYear": 2019
+        },
+        {
+          "name": "Jimmy Brown",
+          "gradYear": 2000
+        }
+      ],
+      "vibes": [
+        {
+          "name": "Kathy Hershberger",
+          "gradYear": 1994
+        }
+      ],
+      "voice": [
+        {
+          "name": "Rachel Caswell",
+          "gradYear": 1991
+        }
+      ],
+      "violin": [
+        {
+          "name": "Susan Anderson",
+          "gradYear": 2002
         }
       ]
     },
@@ -404,51 +434,13 @@
         "title": "Dat Dere",
         "composer": "Bobby Timmons and Oscar Brown Jr.",
         "arranger": "Chris Gallaher",
-        "performerOverrides": {
-          "vibes": [
-            {
-              "name": "Kathy Hershberger",
-              "gradYear": 1994
-            }
-          ],
-          "violin & flute": [
-            {
-              "name": "Susan Anderson",
-              "gradYear": 2002
-            }
-          ],
-          "drums": [
-            {
-              "name": "Jimmy Brown",
-              "gradYear": 2000
-            }
-          ]
-        }
+        "performerOverrides": {}
       },
       {
         "title": "Orange Colored Sky",
         "composer": "Milton DeLugg and Willie Stein",
         "arranger": "Roger Holmes",
-        "performerOverrides": {
-          "trumpet": [
-            {
-              "name": "Griffin Loudermilk",
-              "gradYear": 2020
-            },
-            {
-              "name": "Dan Cummins (ST)",
-              "gradYear": 2011
-            },
-            {
-              "name": "Joshua Griesemer",
-              "gradYear": 2025
-            },
-            {
-              "name": "Cameron Adams",
-              "gradYear": 2012
-            }
-          ]
-        }
+        "performerOverrides": {}
       }
     ]
   },
@@ -461,12 +453,16 @@
     "performers": {
       "saxophone": [
         {
-          "name": "Ace Lee (Alto)",
+          "name": "Elvin Debruicker (Alto)",
           "gradYear": 2023
         },
         {
           "name": "Emil Wiley Lippke (Alto)",
           "gradYear": 2019
+        },
+        {
+          "name": "Keegan White (Alto)",
+          "gradYear": 2002
         },
         {
           "name": "Nate Johnson (Tenor)",
@@ -477,7 +473,7 @@
           "gradYear": 2021
         },
         {
-          "name": "Elvin Debruicker (Baritone)",
+          "name": "Ace Lee (Baritone)",
           "gradYear": 2023
         }
       ],
@@ -495,16 +491,16 @@
           "gradYear": 2010
         },
         {
+          "name": "Sam Johnson",
+          "gradYear": 1997
+        },
+        {
           "name": "Paul McClain",
           "gradYear": 1984
         },
         {
           "name": "Siarra Brielle Bazler",
           "gradYear": 2010
-        },
-        {
-          "name": "Sam Johnson",
-          "gradYear": 1997
         }
       ],
       "trombone": [
@@ -533,6 +529,12 @@
           "gradYear": 2022
         }
       ],
+      "tuba": [
+        {
+          "name": "Craig Prough",
+          "gradYear": 1985
+        }
+      ],
       "piano": [
         {
           "name": "Maxwell Riggle",
@@ -555,215 +557,64 @@
         {
           "name": "Charles Edwards",
           "gradYear": 2019
+        },
+        {
+          "name": "John Valdez",
+          "gradYear": null
+        }
+      ],
+      "percussion": [
+        {
+          "name": "Jimmy Brown",
+          "gradYear": 2000
+        }
+      ],
+      "vibes": [
+        {
+          "name": "Kathy Hershberger",
+          "gradYear": 1994
+        }
+      ],
+      "voice": [
+        {
+          "name": "Rachel Caswell",
+          "gradYear": 1991
+        },
+        {
+          "name": "Erika Stoner",
+          "gradYear": 1985
+        }
+      ],
+      "violin": [
+        {
+          "name": "Susan Anderson",
+          "gradYear": 2002
         }
       ]
     },
     "songs": [
+      {
+        "title": "A Night in Tunisia",
+        "composer": "Dizzy Gillespie and Frank Paparelli",
+        "arranger": "Sammy Nestico",
+        "performerOverrides": {}
+      },
+      {
+        "title": "Three and One",
+        "composer": "Thad Jones",
+        "arranger": "Thad Jones",
+        "performerOverrides": {}
+      },
       {
         "title": "Always and Forever",
         "composer": "Pat Metheny",
         "arranger": "Bob Curnow"
       },
       {
-        "title": "A Night in Tunisia",
-        "composer": "Dizzy Gillespie and Frank Paparelli",
-        "arranger": "Sammy Nestico",
-        "performerOverrides": {
-          "trumpet": [
-            {
-              "name": "BJ Cord",
-              "gradYear": 1998
-            },
-            {
-              "name": "Sam Johnson",
-              "gradYear": 1997
-            },
-            {
-              "name": "Josh Goodman",
-              "gradYear": 1995
-            },
-            {
-              "name": "Siarra Brielle Bazler",
-              "gradYear": 2010
-            },
-            {
-              "name": "Paul McClain",
-              "gradYear": 1984
-            }
-          ],
-          "trombone": [
-            {
-              "name": "Solomon Dixon",
-              "gradYear": 2022
-            },
-            {
-              "name": "Carl Tafoya",
-              "gradYear": 2017
-            },
-            {
-              "name": "Megan Doughman",
-              "gradYear": 1999
-            },
-            {
-              "name": "Chris Minor",
-              "gradYear": 2000
-            }
-          ],
-          "drums": [
-            {
-              "name": "John Valdez",
-              "gradYear": null
-            }
-          ],
-          "vibes": [
-            {
-              "name": "Kathy Hershberger",
-              "gradYear": 1994
-            }
-          ],
-          "violin & flute": [
-            {
-              "name": "Susan Anderson",
-              "gradYear": 2002
-            }
-          ]
-        }
-      },
-      {
-        "title": "Three and One",
-        "composer": "Thad Jones",
-        "arranger": "Thad Jones",
-        "performerOverrides": {
-          "saxophone": [
-            {
-              "name": "Ace Lee (Alto)",
-              "gradYear": 2023
-            },
-            {
-              "name": "Keegan White (Alto)",
-              "gradYear": 2002
-            },
-            {
-              "name": "Nate Johnson (Tenor)",
-              "gradYear": 1990
-            },
-            {
-              "name": "Anthony Tamborrino (Tenor)",
-              "gradYear": 2021
-            },
-            {
-              "name": "Elvin Debruicker (Baritone)",
-              "gradYear": 2023
-            }
-          ],
-          "flugelhorn": [
-            {
-              "name": "BJ Cord",
-              "gradYear": 1998
-            }
-          ],
-          "trumpet": [
-            {
-              "name": "Sam Johnson",
-              "gradYear": 1997
-            },
-            {
-              "name": "Josh Goodman",
-              "gradYear": 1995
-            },
-            {
-              "name": "Siarra Brielle Bazler",
-              "gradYear": 2010
-            },
-            {
-              "name": "Paul McClain",
-              "gradYear": 1984
-            }
-          ],
-          "trombone": [
-            {
-              "name": "Solomon Dixon",
-              "gradYear": 2022
-            },
-            {
-              "name": "Carl Tafoya",
-              "gradYear": 2017
-            },
-            {
-              "name": "Megan Doughman",
-              "gradYear": 1999
-            },
-            {
-              "name": "Chris Minor",
-              "gradYear": 2000
-            }
-          ],
-          "voice": [
-            {
-              "name": "Rachel Caswell",
-              "gradYear": 1991
-            }
-          ],
-          "drums": [
-            {
-              "name": "John Valdez",
-              "gradYear": null
-            }
-          ]
-        }
-      },
-      {
         "title": "5M Calypso",
         "composer": "David Baker",
         "arranger": null,
-        "performerOverrides": {
-          "saxophone": [
-            {
-              "name": "Ace Lee (Alto)",
-              "gradYear": 2023
-            },
-            {
-              "name": "Keegan White (Alto)",
-              "gradYear": 2002
-            },
-            {
-              "name": "Nate Johnson (Tenor)",
-              "gradYear": 1990
-            },
-            {
-              "name": "Anthony Tamborrino (Tenor)",
-              "gradYear": 2021
-            },
-            {
-              "name": "Elvin Debruicker (Baritone)",
-              "gradYear": 2023
-            }
-          ],
-          "tuba": [
-            {
-              "name": "Craig Prough",
-              "gradYear": 1985
-            }
-          ],
-          "drums": [
-            {
-              "name": "John Valdez",
-              "gradYear": null
-            }
-          ],
-          "vibes": [
-            {
-              "name": "Kathy Hershberger",
-              "gradYear": 1994
-            }
-          ],
-          "violin & flute": [
-            {
-              "name": "Susan Anderson",
-              "gradYear": 2002
-            }
-          ]
-        }
+        "performerOverrides": {}
       }
     ]
   },
