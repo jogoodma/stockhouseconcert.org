@@ -8,85 +8,170 @@ concertLocation: Bloomington High School North Auditorium
 mapLocation: https://duckduckgo.com/?hps=1&q=3901+N+kinser+Pike+Bloomington%2C+IN&atb=v143-1&iaxm=maps&source=maps
 ---
 
-<div class="w-full max-w-2xl bg-white/95 rounded-2xl shadow-xl p-8 md:p-12 mt-8 mb-8 border-t-4 border-maroon">
-
+<div
+  class="w-full max-w-2xl bg-white/95 rounded-2xl shadow-xl p-8 md:p-12 mt-8 mb-8 border-t-4 border-maroon"
+>
   <div class="mb-8">
-    <h2 class="text-2xl font-semibold text-gray-900 mb-4 text-center border-b-2 border-maroon inline-block px-4 pb-1">Concert Details</h2>
-    <div class="flex flex-col md:flex-row md:justify-between gap-4 text-center md:text-left">
+    <h2
+      class="text-2xl font-semibold text-gray-900 mb-4 text-center border-b-2 border-maroon inline-block px-4 pb-1"
+    >
+      Concert Details
+    </h2>
+    <div
+      class="flex flex-col md:flex-row md:justify-between gap-4 text-center md:text-left"
+    >
       <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">Date</div>
-        <div class="font-bold text-gray-900">{{ concertDate | default("TBD") }}</div>
+        <div class="text-base font-semibold text-gray-700 tracking-wide">
+          Date
+        </div>
+        <div class="font-bold text-gray-900">
+          {{ concertDate | default("TBD") }}
+        </div>
       </div>
       <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">Time</div>
-        <div class="font-bold text-gray-900">{{ concertTime | default("TBD") }}</div>
+        <div class="text-base font-semibold text-gray-700 tracking-wide">
+          Time
+        </div>
+        <div class="font-bold text-gray-900">
+          {{ concertTime | default("TBD") }}
+        </div>
       </div>
       <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">Cost</div>
+        <div class="text-base font-semibold text-gray-700 tracking-wide">
+          Cost
+        </div>
         <div class="font-bold text-gray-900">Free</div>
       </div>
       <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide flex items-center gap-1">
+        <div
+          class="text-base font-semibold text-gray-700 tracking-wide flex items-center gap-1"
+        >
           Location
-          <a href="{{ mapLocation }}" target="_blank" rel="noopener noreferrer" aria-label="View location on map" class="inline-block align-middle text-maroon hover:text-maroon/80">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4 inline">
-              <path fill-rule="evenodd" d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.76a1 1 0 0 0 1.416 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 2a4 4 0 0 1 4 4c0 2.763-2.74 6.36-4 7.746C8.74 12.36 6 8.763 6 6a4 4 0 0 1 4-4zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" clip-rule="evenodd" />
+          <a
+            href="{{ mapLocation }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View location on map"
+            class="inline-block align-middle text-maroon hover:text-maroon/80"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-4 h-4 inline"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.76a1 1 0 0 0 1.416 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 2a4 4 0 0 1 4 4c0 2.763-2.74 6.36-4 7.746C8.74 12.36 6 8.763 6 6a4 4 0 0 1 4-4zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                clip-rule="evenodd"
+              />
             </svg>
           </a>
         </div>
-        <div class="font-bold text-gray-900">{{ concertLocation | default("TBD") }}</div>
+        <div class="font-bold text-gray-900">
+          {{ concertLocation | default("TBD") }}
+        </div>
       </div>
     </div>
   </div>
   <section class="mb-8">
-    <h2 class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-maroon pl-2">About the Event</h2>
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-maroon pl-2"
+    >
+      About the Event
+    </h2>
     <p class="text-gray-700 leading-relaxed">
-      Join us as we celebrate the life and legacy of Janis Stockhouse.
-      This special tribute concert will bring together students, colleagues,
-      and friends to honor her passion for music with performances by Symphonic
-      and Jazz bands.
+      Join us as we celebrate the life and legacy of Janis Stockhouse. This
+      special tribute concert will bring together students, colleagues, and
+      friends to honor her passion for music with performances by Symphonic and
+      Jazz bands.
     </p>
   </section>
   <section class="mb-8">
-    <h2 class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-gold pl-2">
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-gold pl-2"
+    >
       Our interview on
-      <a class="underline hover:text-gold" href="https://www.ipm.org/show/justyouandme" target="_blank" rel="noopener noreferrer" aria-label="Just You & Me on WFIU">
+      <a
+        class="underline hover:text-gold"
+        href="https://www.ipm.org/show/justyouandme"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Just You & Me on WFIU"
+      >
         Just You & Me
       </a>
     </h2>
     <p class="text-gray-700 mb-4">
-      Listen to Keegan White, Natalie Boeyink, and Josh Goodman talk to WFIU's David Brent Johnson
-      about the upcoming concert and reflect on the legacy of Janis Stockhouse.
+      Listen to Keegan White, Natalie Boeyink, and Josh Goodman talk to WFIU's
+      David Brent Johnson about the upcoming concert and reflect on the legacy
+      of Janis Stockhouse.
     </p>
     <div class="flex justify-center">
       <audio controls class="w-full max-w-lg">
-        <source src="/assets/audio/wfiu-interview.mp3" type="audio/mpeg">
+        <source src="/assets/audio/wfiu-interview.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
   </section>
   <section class="mb-8">
-    <h2 class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-gold pl-2">Get Involved</h2>
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-gold pl-2"
+    >
+      Get Involved
+    </h2>
     <p class="text-gray-700 mb-4">
       Interested in volunteering or otherwise supporting the event?
     </p>
     <div class="flex justify-center">
-      <a href="mailto:info@stockhouseconcert.org"
+      <a
+        href="mailto:info@stockhouseconcert.org"
         class="px-6 py-2 rounded-lg bg-maroon text-white font-semibold shadow hover:bg-maroon/90 focus:outline-none focus:ring-2 focus:ring-maroon focus:ring-offset-2 transition border-t-2 border-gold"
-        aria-label="Email info@stockhouseconcert.org">
+        aria-label="Email info@stockhouseconcert.org"
+      >
         Contact Us
       </a>
     </div>
   </section>
   <section class="pt-8">
-    <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center border-b-2 border-maroon inline-block px-4 pb-1">Thank You to Our Sponsors</h2>
-    <div class="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-14 py-4">
-      <a href="https://averspizza.com/" target="_blank" rel="noopener noreferrer" aria-label="Aver's Pizza Website" class="flex items-start gap-2">
-        <img src="/assets/images/avers_logo_icon.png" alt="Aver's Pizza Icon" class="w-[86px] h-[85px]">
-        <img src="/assets/images/avers_logo_text.png" alt="Aver's Pizza" class="w-[119px] h-[51px] mt-[5px]">
+    <h2
+      class="text-2xl font-semibold text-gray-900 mb-6 text-center border-b-2 border-maroon inline-block px-4 pb-1"
+    >
+      Thank You to Our Sponsors
+    </h2>
+    <div
+      class="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-14 py-4"
+    >
+      <a
+        href="https://averspizza.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Aver's Pizza Website"
+        class="flex items-start gap-2"
+      >
+        <img
+          src="/assets/images/avers_logo_icon.png"
+          alt="Aver's Pizza Icon"
+          class="w-[86px] h-[85px]"
+        />
+        <img
+          src="/assets/images/avers_logo_text.png"
+          alt="Aver's Pizza"
+          class="w-[119px] h-[51px] mt-[5px]"
+        />
       </a>
-      <a href="https://www.oneworldcaters.com/" target="_blank" rel="noopener noreferrer" aria-label="One World Catering Website" class="flex items-center justify-center">
-        <img src="/assets/images/OWC+Logo.png" alt="One World Catering" class="w-[123px] h-[120px]">
+      <a
+        href="https://www.oneworldcaters.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="One World Catering Website"
+        class="flex items-center justify-center"
+      >
+        <img
+          src="/assets/images/OWC+Logo.png"
+          alt="One World Catering"
+          class="w-[123px] h-[120px]"
+        />
       </a>
     </div>
   </section>
