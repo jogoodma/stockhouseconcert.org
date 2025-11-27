@@ -49,7 +49,7 @@ date: Last Modified
               <div class="instrument-name">{{ instrument | upper }}</div>
               {% for player in players %}
                 <div class="performer-name">
-                  {{ player.name }}{% if player.gradYear %}({{ player.gradYear }}){% endif %}
+                  {{ player.name }}{% if player.gradYear %} ({{ player.gradYear }}){% endif %}
                 </div>
               {% endfor %}
             </div>
