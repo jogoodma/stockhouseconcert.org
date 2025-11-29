@@ -8,164 +8,186 @@ concertLocation: Bloomington High School North Auditorium
 mapLocation: https://duckduckgo.com/?hps=1&q=3901+N+kinser+Pike+Bloomington%2C+IN&atb=v143-1&iaxm=maps&source=maps
 ---
 
-<div
-  class="w-full max-w-2xl bg-white/95 rounded-2xl shadow-xl p-8 md:p-12 mt-8 mb-8 border-t-4 border-maroon"
->
-  <div class="mb-8 text-center">
-    <a
-      href="/donate/"
-      class="inline-block px-8 py-4 text-xl font-bold rounded-lg bg-gold text-gray-900 shadow-lg hover:bg-gold/90 focus:outline-none focus:ring-4 focus:ring-gold focus:ring-offset-2 transition-all transform hover:scale-105 border-2 border-maroon"
-      aria-label="Donate to support the Janis Stockhouse Tribute Concert"
-    >
-      Support the BHSN Band - Donate Now
-    </a>
+<div class="w-full flex flex-col items-center px-4">
+  <div
+    class="w-full max-w-2xl bg-amber-50 border-l-4 border-amber-500 rounded-lg shadow-lg p-6 mt-8 mb-4"
+    role="alert"
+    aria-live="polite"
+  >
+    <div class="text-center">
+      <div class="text-xl font-bold text-amber-800 mb-2">⚠️ Weather Update</div>
+      <div class="text-sm font-semibold text-amber-700 mb-3">
+        Updated at
+        {{ page.date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true, timeZone: 'America/New_York' }) }}
+        ET
+      </div>
+      <p class="text-gray-800 leading-relaxed">
+        The concert is scheduled to proceed as planned. However, we are closely
+        monitoring today's weather forecast. Please check this page for updates
+        throughout the day.
+      </p>
+    </div>
   </div>
-  <div class="mb-8">
-    <h2
-      class="text-2xl font-semibold text-gray-900 mb-4 text-center border-b-2 border-maroon inline-block px-4 pb-1"
-    >
-      Concert Details
-    </h2>
-    <div
-      class="flex flex-col md:flex-row md:justify-between gap-4 text-center md:text-left"
-    >
-      <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">
-          Date
+
+  <div
+    class="w-full max-w-2xl bg-white/95 rounded-2xl shadow-xl p-8 md:p-12 mb-8 border-t-4 border-maroon"
+  >
+    <div class="mb-8 text-center">
+      <a
+        href="/donate/"
+        class="inline-block px-8 py-4 text-xl font-bold rounded-lg bg-gold text-gray-900 shadow-lg hover:bg-gold/90 focus:outline-none focus:ring-4 focus:ring-gold focus:ring-offset-2 transition-all transform hover:scale-105 border-2 border-maroon"
+        aria-label="Donate to support the Janis Stockhouse Tribute Concert"
+      >
+        Support the BHSN Band - Donate Now
+      </a>
+    </div>
+    <div class="mb-8">
+      <h2
+        class="text-2xl font-semibold text-gray-900 mb-4 text-center border-b-2 border-maroon inline-block px-4 pb-1"
+      >
+        Concert Details
+      </h2>
+      <div
+        class="flex flex-col md:flex-row md:justify-between gap-4 text-center md:text-left"
+      >
+        <div>
+          <div class="text-base font-semibold text-gray-700 tracking-wide">
+            Date
+          </div>
+          <div class="font-bold text-gray-900">
+            {{ concertDate | default("TBD") }}
+          </div>
         </div>
-        <div class="font-bold text-gray-900">
-          {{ concertDate | default("TBD") }}
+        <div>
+          <div class="text-base font-semibold text-gray-700 tracking-wide">
+            Time
+          </div>
+          <div class="font-bold text-gray-900">
+            {{ concertTime | default("TBD") }}
+          </div>
         </div>
-      </div>
-      <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">
-          Time
+        <div>
+          <div class="text-base font-semibold text-gray-700 tracking-wide">
+            Cost
+          </div>
+          <div class="font-bold text-gray-900">Free</div>
         </div>
-        <div class="font-bold text-gray-900">
-          {{ concertTime | default("TBD") }}
-        </div>
-      </div>
-      <div>
-        <div class="text-base font-semibold text-gray-700 tracking-wide">
-          Cost
-        </div>
-        <div class="font-bold text-gray-900">Free</div>
-      </div>
-      <div>
-        <div
-          class="text-base font-semibold text-gray-700 tracking-wide flex items-center gap-1"
-        >
-          Location
-          <a
-            href="{{ mapLocation }}"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="View location on map"
-            class="inline-block align-middle text-maroon hover:text-maroon/80"
+        <div>
+          <div
+            class="text-base font-semibold text-gray-700 tracking-wide flex items-center gap-1"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="w-4 h-4 inline"
+            Location
+            <a
+              href="{{ mapLocation }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View location on map"
+              class="inline-block align-middle text-maroon hover:text-maroon/80"
             >
-              <path
-                fill-rule="evenodd"
-                d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.76a1 1 0 0 0 1.416 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 2a4 4 0 0 1 4 4c0 2.763-2.74 6.36-4 7.746C8.74 12.36 6 8.763 6 6a4 4 0 0 1 4-4zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </a>
-        </div>
-        <div class="font-bold text-gray-900">
-          {{ concertLocation | default("TBD") }}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-4 h-4 inline"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 2C6.686 2 4 4.686 4 8c0 4.418 5.25 9.54 5.472 9.76a1 1 0 0 0 1.416 0C10.75 17.54 16 12.418 16 8c0-3.314-2.686-6-6-6zm0 2a4 4 0 0 1 4 4c0 2.763-2.74 6.36-4 7.746C8.74 12.36 6 8.763 6 6a4 4 0 0 1 4-4zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="font-bold text-gray-900">
+            {{ concertLocation | default("TBD") }}
+          </div>
         </div>
       </div>
     </div>
+    <section class="mb-8">
+      <h2
+        class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-maroon pl-2"
+      >
+        About the Event
+      </h2>
+      <p class="text-gray-700 leading-relaxed">
+        Join us as we celebrate the life and legacy of Janis Stockhouse. This
+        special tribute concert will bring together students, colleagues, and
+        friends to honor her passion for music with performances by Symphonic
+        and Jazz bands.
+      </p>
+    </section>
+    <section class="mb-8">
+      <h2
+        class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-gold pl-2"
+      >
+        Interview on
+        <a
+          class="underline hover:text-gold"
+          href="https://www.ipm.org/show/justyouandme"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Just You & Me on WFIU"
+        >
+          Just You & Me
+        </a>
+      </h2>
+      <p class="text-gray-700 mb-4">
+        Listen to Keegan White, Natalie Boeyink, and Josh Goodman talk to WFIU's
+        David Brent Johnson about the upcoming concert and reflect on the legacy
+        of Janis Stockhouse. Original broadcast date: <i>Wed Nov 26, 2025</i>.
+      </p>
+      <div class="flex justify-center">
+        <audio controls class="w-full max-w-lg">
+          <source
+            src="https://audio.stockhouseconcert.org/wfiu-interview.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </section>
+    <section class="pt-8">
+      <h2
+        class="text-2xl font-semibold text-gray-900 mb-6 text-center border-b-2 border-maroon inline-block px-4 pb-1"
+      >
+        Thank You to Our Sponsors
+      </h2>
+      <div
+        class="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-14 py-4"
+      >
+        <a
+          href="https://averspizza.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Aver's Pizza Website"
+          class="flex items-start gap-2"
+        >
+          <img
+            src="/assets/images/avers_logo_icon.png"
+            alt="Aver's Pizza Icon"
+            class="w-[86px] h-[85px]"
+          />
+          <img
+            src="/assets/images/avers_logo_text.png"
+            alt="Aver's Pizza"
+            class="w-[119px] h-[51px] mt-[5px]"
+          />
+        </a>
+        <a
+          href="https://www.oneworldcaters.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="One World Catering Website"
+          class="flex items-center justify-center"
+        >
+          <img
+            src="/assets/images/OWC+Logo.png"
+            alt="One World Catering"
+            class="w-[123px] h-[120px]"
+          />
+        </a>
+      </div>
+    </section>
   </div>
-  <section class="mb-8">
-    <h2
-      class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-maroon pl-2"
-    >
-      About the Event
-    </h2>
-    <p class="text-gray-700 leading-relaxed">
-      Join us as we celebrate the life and legacy of Janis Stockhouse. This
-      special tribute concert will bring together students, colleagues, and
-      friends to honor her passion for music with performances by Symphonic and
-      Jazz bands.
-    </p>
-  </section>
-  <section class="mb-8">
-    <h2
-      class="text-xl font-semibold text-gray-900 mb-2 border-l-4 border-gold pl-2"
-    >
-      Interview on
-      <a
-        class="underline hover:text-gold"
-        href="https://www.ipm.org/show/justyouandme"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Just You & Me on WFIU"
-      >
-        Just You & Me
-      </a>
-    </h2>
-    <p class="text-gray-700 mb-4">
-      Listen to Keegan White, Natalie Boeyink, and Josh Goodman talk to WFIU's
-      David Brent Johnson about the upcoming concert and reflect on the legacy
-      of Janis Stockhouse. Original broadcast date: <i>Wed Nov 26, 2025</i>.
-    </p>
-    <div class="flex justify-center">
-      <audio controls class="w-full max-w-lg">
-        <source
-          src="https://audio.stockhouseconcert.org/wfiu-interview.mp3"
-          type="audio/mpeg"
-        />
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  </section>
-  <section class="pt-8">
-    <h2
-      class="text-2xl font-semibold text-gray-900 mb-6 text-center border-b-2 border-maroon inline-block px-4 pb-1"
-    >
-      Thank You to Our Sponsors
-    </h2>
-    <div
-      class="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-14 py-4"
-    >
-      <a
-        href="https://averspizza.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Aver's Pizza Website"
-        class="flex items-start gap-2"
-      >
-        <img
-          src="/assets/images/avers_logo_icon.png"
-          alt="Aver's Pizza Icon"
-          class="w-[86px] h-[85px]"
-        />
-        <img
-          src="/assets/images/avers_logo_text.png"
-          alt="Aver's Pizza"
-          class="w-[119px] h-[51px] mt-[5px]"
-        />
-      </a>
-      <a
-        href="https://www.oneworldcaters.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="One World Catering Website"
-        class="flex items-center justify-center"
-      >
-        <img
-          src="/assets/images/OWC+Logo.png"
-          alt="One World Catering"
-          class="w-[123px] h-[120px]"
-        />
-      </a>
-    </div>
-  </section>
 </div>
