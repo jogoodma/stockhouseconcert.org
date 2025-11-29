@@ -329,10 +329,6 @@
           "gradYear": 2021
         },
         {
-          "name": "Bob Hershberger (Alto)",
-          "gradYear": 1996
-        },
-        {
           "name": "Nate Johnson (Tenor)",
           "gradYear": 1990
         },
@@ -341,12 +337,8 @@
           "gradYear": null
         },
         {
-          "name": "Jake Boling (Baritone)",
+          "name": "Elvin Debruicker (Baritone)",
           "gradYear": 2023
-        },
-        {
-          "name": "Ethan Prasad Silwal (Baritone)",
-          "gradYear": 2025
         }
       ],
       "trumpet": [
@@ -401,6 +393,10 @@
         {
           "name": "Maxwell Riggle",
           "gradYear": 2021
+        },
+        {
+          "name": "Maddy Waters",
+          "gradYear": null
         }
       ],
       "guitar": [
@@ -415,7 +411,7 @@
           "gradYear": 1998
         }
       ],
-      "drums": [
+      "drums / percussion": [
         {
           "name": "Danny Deckard",
           "gradYear": 1982
@@ -427,6 +423,10 @@
         {
           "name": "Jimmy Brown",
           "gradYear": 2000
+        },
+        {
+          "name": "Nick Williams",
+          "gradYear": 2026
         }
       ],
       "vibes": [
@@ -559,6 +559,10 @@
         {
           "name": "Maxwell Riggle",
           "gradYear": 2021
+        },
+        {
+          "name": "Maddy Waters",
+          "gradYear": null
         }
       ],
       "guitar": [
@@ -573,7 +577,7 @@
           "gradYear": 1998
         }
       ],
-      "drums": [
+      "drums / percussion": [
         {
           "name": "Charles Edwards",
           "gradYear": 2019
@@ -581,12 +585,14 @@
         {
           "name": "John Valdez",
           "gradYear": null
-        }
-      ],
-      "percussion": [
+        },
         {
           "name": "Jimmy Brown",
           "gradYear": 2000
+        },
+        {
+          "name": "Nick Williams",
+          "gradYear": 2026
         }
       ],
       "vibes": [
