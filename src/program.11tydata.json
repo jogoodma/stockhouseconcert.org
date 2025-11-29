@@ -36,12 +36,20 @@
         {
           "name": "Lauren Killigrew",
           "gradYear": 2013
+        },
+        {
+          "name": "Caitlin Foley",
+          "gradYear": 2027
         }
       ],
       "oboe": [
         {
           "name": "Jasmin Herzig",
           "gradYear": 2020
+        },
+        {
+          "name": "Iris Jones",
+          "gradYear": 2026
         }
       ],
       "clarinet": [
@@ -100,6 +108,10 @@
         {
           "name": "Katie Mills",
           "gradYear": 2019
+        },
+        {
+          "name": "Andrew Lee",
+          "gradYear": 2026
         }
       ],
       "saxophone": [
@@ -178,6 +190,10 @@
         {
           "name": "Cameron Adams",
           "gradYear": 2012
+        },
+        {
+          "name": "Jackson Sweeny",
+          "gradYear": 2024
         }
       ],
       "trombone": [
@@ -282,6 +298,10 @@
         {
           "name": "Maddy Waters",
           "gradYear": 2025
+        },
+        {
+          "name": "Jimmy Brown",
+          "gradYear": 2000
         },
         {
           "name": "Danny Walsh",
